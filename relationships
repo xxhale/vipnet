@@ -1,7 +1,13 @@
 (в конце указано сколько в итоге должно быть связей у пользователя)
+
 Net1-Cord   [ Net2-Cord, Net1-Open, Net1-Admin, Net1-OperCA ] 4
+
 Net2-Cord   [ Net1-Cord, Net2-Client, Net1-OperCA ] 3
+
 Net1-Admin  [ Net1-Cord, Net2-Client, Net1-Open, Net1-OperCA ] 4
+
 Net1-Open   [ Net1-Cord, Net1-Admin, Net1-OperCA ] 3
+
 Net1-OperCA [ Net1-Cord, Net2-Cord, Net1-Admin, Net1-Open ] 4
+
 Net2-Client [ Net2-Cord, Net1-Admin ] 2
