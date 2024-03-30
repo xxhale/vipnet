@@ -10,7 +10,18 @@
 
 Перезагружаемся
 
-Ставим время(если ключ говно)
+Ставим дату(если ключ говно)
 
 Подключаем диск через настройки виртуальной машины
 Заходим на диск
+
+..Устанавливаем SQL..
+VIPNET A_7_R > SOFT > ___000 >> SERVER_I > PACKAGES > SQLEXPRE > SQLEXPR_
+NEW SQL
+Named Instance > WINNCCSQL
+SQL Server Browser > Automatic
+Mixed Mode > xxXX1234
+Переходим выше во вкладку Filestream и ставим все галочки
+
+ЦУС СЕРВЕРНЫЙ
+
