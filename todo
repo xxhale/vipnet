@@ -2,7 +2,7 @@
 Запускаем Net1-Admin
 Первым делом настраиваем IP, отключаем firewall и добавляем сетевое обнаружение
 Открываем cmd от имени админа и вписываем следующие команды:
-1) netsh interface ip set address name="Ethernet0" static 1.2.3.1 255.255.255.240 1.2.3.2 (Это команда конкретно для админа, на других другие IP)
+1) netsh interface ip set address name="Ethernet0" static 1.2.3.1 255.255.255.240 1.2.3.2 (Это команда конкретно для админа, на других другие IP и маски)
 2) netsh advfirewall set allprofiles state off
 3) Win+R > powershell > netsh advfirewall firewall set rule group=»Обнаружение сети» new enable=Yes
 Для проверки можно пройти следующим путём: Идём в панель управления(Win+R > control). Панель управления\Сеть и Интернет\Центр управления сетями и общим доступом\Дополнительные параметры общего доступа.
