@@ -22,6 +22,21 @@ Named Instance > WINNCCSQL
 SQL Server Browser > Automatic
 Mixed Mode > xxXX1234
 Переходим выше во вкладку Filestream и ставим все галочки
+Дальше ищем в поиске SQL Server 2014 Configuration Manager
+SQL Server Network Config. > Protocols for WINNCCSQL
+ПКМ TCP/IP > Enable
+Переходим в SQL Server Services и ПКМ по SQL Server и SQL Server Browser > Restart  
 
 ЦУС СЕРВЕРНЫЙ
+A_7_R > SOFT > ___000 > SERVER_I > PACKAGES > RU_RU > WINNCCSE
+Проверка подлинности SQL Server
+Log: sa
+Pas: xxXX1234
+
+ЦУС КЛИЕНТ
+A7R > SOFT > ___000 > CLIENT_I > PACKAGES RU_RU > WINNCCCL
+
+Перед тем как запускать приложения ПРОВЕРЯЙТЕ ВРЕМЯ!!!
+
+
 
