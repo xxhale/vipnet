@@ -6,6 +6,6 @@ Net2-Cord   [ Net1_Coord, Net1_OperCA, Net2_Client ] 3
 
 Net1-Admin  [ Net1-Cord, Net1_OperCA, Net2_Client ] 3
 
-Net1-OperCA [ Net1_Coord, Net1_Admin, Net2_Coord ] 4
+Net1-OperCA [ Net1_Coord, Net1_Admin, Net2_Coord ] 3
 
 Net2-Client [ Net2-Cord, Net1-Admin ] 2
