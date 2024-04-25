@@ -23,7 +23,7 @@
 Открываем панель управления > Сеть и Интернет > Центр управления сетями и общим доступом > Дополнительные параметры общего доступа > Ставим везде включить
 Открываем cmd от имени админа и вписываем следующее:
 netsh advfirewall set allprofiles state off
-
+Устанавливаем VISUAL C - A7R > SOFT > ____000 > SERVER_I > PACKAGES > VISUAL_C
 Перезагружаем виртуалку
 
 Ставим дату!
@@ -35,9 +35,6 @@ netsh advfirewall set allprofiles state off
 УСТАНОВКА БАЗЫ ДАННЫХ
 БАЗУ ДАННЫХ СТАВИМ НА Net1_Open
 ////////////////////
-..Устанавливаем VISUAL C..
-A7R > SOFT > ____000 > SERVER_I > PACKAGES > VISUAL_C
-..Устанавливаем SQL..
 VIPNET A_7_R > SOFT > ___000 >> SERVER_I > PACKAGES > SQLEXPRE > SQLEXPR_
 NEW SQL
 Named Instance > WINNCCSQL
